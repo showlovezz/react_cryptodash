@@ -1,9 +1,14 @@
 import React from 'react';
+import styled, { css } from 'styled-components'
+
 import './App.css';
+import WelcomeMessage from './WelcomeMessage'
 
 function App() {
   return (
-    <div>Welcome to Cryptodash.</div>
+    <div>
+      <WelcomeMessage />
+    </div>
   );
 }
 

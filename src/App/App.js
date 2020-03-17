@@ -1,14 +1,14 @@
 import React from 'react';
-import styled, { css } from 'styled-components'
+import AppLayout from './AppLayout'
 
 import './App.css';
 import WelcomeMessage from './WelcomeMessage'
 
 function App() {
   return (
-    <div>
+    <AppLayout>
       <WelcomeMessage />
-    </div>
+    </AppLayout>
   );
 }
 
